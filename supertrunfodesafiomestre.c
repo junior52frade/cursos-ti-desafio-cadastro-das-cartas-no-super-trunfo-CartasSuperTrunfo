@@ -11,7 +11,7 @@ float PIBA = 98.758800;
 int PontosA = 70;
 float DensidadeA = (float) PopulaçãoA / ÁreaA;
 float PercapitaA = (float) PopulaçãoA / PIBA;
-unsigned int superpoderA = PopulaçãoA + ÁreaA + PIBA + PontosA;
+unsigned long int superpoderA = PopulaçãoA + ÁreaA + PIBA + PontosA;
 
 char Carta2;
 char EstadoB [20] = "Ceará";
@@ -23,7 +23,7 @@ float PIBB = 94.885000;
 int PontosB = 50;
 float DensidadeB = (float) PopulaçãoB / ÁreaB;
 float PercapitaB = (float) PopulaçãoB / PIBB;
-unsigned int superpoderB = PopulaçãoB + ÁreaB + PIBB + PontosB;
+unsigned long int superpoderB = PopulaçãoB + ÁreaB + PIBB + PontosB;
 int resultadoA;
 int resultadoB;
 int resultadoC;
